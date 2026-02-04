@@ -25,21 +25,16 @@
         // console.log(        7 != '7'              )
         // console.log(        7 !== '7'             )
 
-        if (4 === '4') {
-            console.log(beraberdir);
-        }
+        let ad = prompt('Adinizi daxil edin:')
 
-        else if (4 > 2) {
-            console.log('4 2-den boyukdur');
+        if (ad === 'admin') {
 
-        }
+            if (prompt('Parolunzu daxil edin') === '12345') {
+                console.log('Xos geldiniz admin!');
+            } else {
+                console.log('Sehv parol!');
 
-        else if (4 < 2) {
-            console.log('4 2-den kicikdir');
-
-        }
-        else {
-            console.log('beraber deyil');
+            }
 
         }
 
