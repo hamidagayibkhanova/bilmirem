@@ -26,14 +26,18 @@
         // console.log(        7 !== '7'             )
         let ad = prompt('Adinizi daxil edin:')
 
-        if (ad === 'admin') {
+        // if (ad === 'admin') {
 
-            if (prompt('Parolunzu daxil edin') === '12345') {
-                location.href = 'https://www.google.com'
-            } else {
-                console.log('Sehv parol!');
-            }
-        }
+        //     if (prompt('Parolunzu daxil edin') === '12345') {
+        //         location.href = 'https://www.google.com'
+        //     } else {
+        //         console.log('Sehv parol!');
+        //     }
+        // }
+
+        netice = (ad === 'admin') ? 'Xos gelmisiniz admin' : 'Siz admin deyilsinz'
+        console.log(netice);
+
 
 
 
